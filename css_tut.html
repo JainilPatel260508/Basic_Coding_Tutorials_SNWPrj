@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   CSS Basics Course - CodeLearnBasics
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- Simple Header -->
+  <header class="header">
+   <div class="header-content">
+    <nav class="nav-menu">
+     <h1 class="site-title">
+      CodeLearnBasics
+     </h1>
+     <a class="nav-link" href="index.html">
+      Home
+     </a>
+     |
+     <a class="nav-link" href="tutorials.html">
+      Tutorials
+     </a>
+     |
+     <a class="nav-link" href="about.html">
+      About
+     </a>
+     |
+     <a class="nav-link" href="contact.html">
+      Contact
+     </a>
+    </nav>
+   </div>
+  </header>
+  <!-- Course Introduction -->
+  <section class="welcome-section">
+   <div class="welcome-content">
+    <h2>
+     CSS Basics Course
+    </h2>
+    <p>
+     Learn to style and design beautiful websites with CSS
+    </p>
+   </div>
+  </section>
+  <!-- Course Overview -->
+  <section class="section">
+   <div class="container">
+    <h2>
+     Welcome to CSS Basics
+    </h2>
+    <p>
+     Welcome to the CSS Basics Course! CSS stands for Cascading Style Sheets, and it's what makes websites look beautiful and visually appealing. If HTML is the skeleton of a website, then CSS is the clothing and makeup that makes it attractive.
+    </p>
+    <p>
+     Without CSS, all websites would look plain and boring - just black text on a white background. CSS gives you the power to add colors, change fonts, create layouts, add spacing, and make your web pages look exactly the way you want them to.
+    </p>
+    <p>
+     In this course, you'll learn how to transform plain HTML pages into stunning, professional-looking websites. We'll start with the basics like colors and fonts, then move on to more advanced topics like layouts and positioning. By the end of this course, you'll be able to style any website beautifully!
+    </p>
+   </div>
+  </section>
+  <!-- Table of Contents -->
+  <section class="section" style="background-color: white;">
+   <div class="container">
+    <div class="toc-box">
+     <h3>
+      📚 Course Contents
+     </h3>
+     <p>
+      Click on any topic below to jump to that section:
+     </p>
+     <ul>
+      <li>
+       <a href="#lesson1">
+        1. Introduction to CSS
+       </a>
+      </li>
+      <li>
+       <a href="#lesson2">
+        2. CSS Selectors
+       </a>
+      </li>
+      <li>
+       <a href="#lesson3">
+        3. Colors and Backgrounds
+       </a>
+      </li>
+      <li>
+       <a href="#lesson4">
+        4. Text and Font Styling
+       </a>
+      </li>
+      <li>
+       <a href="#lesson5">
+        5. The Box Model
+       </a>
+      </li>
+      <li>
+       <a href="#lesson6">
+        6. Borders and Spacing
+       </a>
+      </li>
+      <li>
+       <a href="#lesson7">
+        7. Working with Layouts
+       </a>
+      </li>
+      <li>
+       <a href="#practice">
+        8. Practice Your Skills
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </section>
+  <!-- Lesson 1 -->
+  <section class="section" id="lesson1">
+   <div class="container">
+    <div class="lesson-box">
+     <h3>
+      1. Introduction to CSS
+     </h3>
+     <p>
+      CSS is the language that describes how HTML elements should be displayed on the screen. There are three ways to add CSS to your HTML pages, but we'll focus on the most common and recommended method.
+     </p>
+     <h4>
+      Three Ways to Add CSS
+     </h4>
+     <p>
+      <strong>
+       1. Inline CSS
+      </strong>
+      - Adding styles directly to HTML elements:
+     </p>
+     <div class="code-box">
+      <pre>&lt;p style="color: blue; font-size: 20px;"&gt;This is blue text.&lt;/p&gt;</pre>
+     </div>
+     <p>
+      <strong>
+       2. Internal CSS
+      </strong>
+      - Using a style tag in the head section:
+     </p>
+     <div class="code-box">
+      <pre>&lt;head&gt;
+    &lt;style&gt;
+        p {
+            color: blue;
+            font-size: 20px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;</pre>
+     </div>
+     <p>
+      <strong>
+       3. External CSS
+      </strong>
+      - Creating a separate CSS file (recommended):
+     </p>
+     <div class="code-box">
+      <pre>&lt;head&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;</pre>
+     </div>
+     <h4>
+      Basic CSS Syntax
+     </h4>
+     <p>
+      CSS rules consist of a selector and a declaration block:
+     </p>
+     <div class="code-box">
+      <pre>p {
+    color: blue;
+    font-size: 16px;
+}</pre>
+     </div>
+     <ul>
+      <li>
+       <strong>
+        Selector
+       </strong>
+       - Points to the HTML element you want to style (here it's "p" for paragraphs)
+      </li>
+      <li>
+       <strong>
+        Property
+       </strong>
+       - The aspect you want to change (like color or font-size)
+      </li>
+      <li>
+       <strong>
+        Value
+       </strong>
+       - The setting for that property (like blue or 16px)
+      </li>
+      <li>
+       <strong>
+        Declaration
+       </strong>
+       - Each property-value pair, separated by semicolons
+      </li>
+     </ul>
+     <div class="note-box">
+      <strong>
+       Best Practice:
+      </strong>
+      Use external CSS files for larger projects. It keeps your HTML clean and makes it easier to maintain consistent styling across multiple pages.
+     </div>
+     <div class="back-to-top">
+      <a href="#top">
+       ↑ Back to Top
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Lesson 2 -->
+  <section class="section" id="lesson2" style="background-color: white;">
+   <div class="container">
+    <div class="lesson-box">
+     <h3>
+      2. CSS Selectors
+     </h3>
+     <p>
+      Selectors are how you target specific HTML elements to apply styles. Think of them as a way to point at exactly what you want to style on your page.
+     </p>
+     <h4>
+      Element Selector
+     </h4>
+     <p>
+      Targets all elements of a specific type:
+     </p>
+     <div class="code-box">
+      <pre>p {
+    color: green;
+}
+
+h1 {
+    font-size: 32px;
+}</pre>
+     </div>
+     <p>
+      This will style ALL paragraphs and ALL h1 headings on your page.
+     </p>
+     <h4>
+      Class Selector
+     </h4>
+     <p>
+      Targets elements with a specific class attribute. Classes start with a dot (.):
+     </p>
+     <div class="code-box">
+      <pre>.highlight {
+    background-color: yellow;
+}
+
+.important {
+    font-weight: bold;
+    color: red;
+}</pre>
+     </div>
+     <p>
+      Use it in HTML like this: &lt;p class="highlight"&gt;This is highlighted&lt;/p&gt;
+     </p>
+     <h4>
+      ID Selector
+     </h4>
+     <p>
+      Targets a single element with a specific ID. IDs start with a hash (#):
+     </p>
+     <div class="code-box">
+      <pre>#header {
+    background-color: navy;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+}</pre>
+     </div>
+     <p>
+      Use it in HTML like this: &lt;div id="header"&gt;Header Content&lt;/div&gt;
+     </p>
+     <div class="note-box">
+      <strong>
+       Important:
+      </strong>
+      Each ID should be unique on a page (use it only once), but you can use the same class on multiple elements. Classes are more flexible and reusable.
+     </div>
+     <div class="back-to-top">
+      <a href="#top">
+       ↑ Back to Top
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Lesson 3 -->
+  <section class="section" id="lesson3">
+   <div class="container">
+    <div class="lesson-box">
+     <h3>
+      3. Colors and Backgrounds
+     </h3>
+     <p>
+      Colors bring life to your website. CSS offers several ways to specify colors, and you can apply them to text, backgrounds, borders, and more.
+     </p>
+     <h4>
+      Ways to Specify Colors
+     </h4>
+     <p>
+      <strong>
+       1. Color Names
+      </strong>
+      - Simple and easy to remember:
+     </p>
+     <div class="code-box">
+      <pre>p {
+    color: red;
+    background-color: lightblue;
+}</pre>
+     </div>
+     <p>
+      <strong>
+       2. Hexadecimal
+      </strong>
+      - Six-digit codes starting with #:
+     </p>
+     <div class="code-box">
+      <pre>h1 {
+    color: #FF0000;  /* Red */
+    background-color: #0000FF;  /* Blue */
+}</pre>
+     </div>
+     <p>
+      <strong>
+       3. RGB
+      </strong>
+      - Red, Green, Blue values (0-255):
+     </p>
+     <div class="code-box">
+      <pre>div {
+    color: rgb(255, 0, 0);  /* Red */
+    background-color: rgb(0, 0, 255);  /* Blue */
+}</pre>
+     </div>
+     <h4>
+      Text Color
+     </h4>
+     <div class="code-box">
+      <pre>p {
+    color: blue;
+}
+
+h1 {
+    color: #333333;
+}</pre>
+     </div>
+     <h4>
+      Background Color
+     </h4>
+     <div class="code-box">
+      <pre>body {
+    background-color: #f0f0f0;
+}
+
+.box {
+    background-color: white;
+}</pre>
+     </div>
+     <div class="note-box">
+      <strong>
+       Pro Tip:
+      </strong>
+      Make sure there's enough contrast between text color and background color so your content is easy to read. Dark text on light backgrounds or light text on dark backgrounds works best.
+     </div>
+     <div class="back-to-top">
+      <a href="#top">
+       ↑ Back to Top
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Lesson 4 -->
+  <section class="section" id="lesson4" style="background-color: white;">
+   <div class="container">
+    <div class="lesson-box">
+     <h3>
+      4. Text and Font Styling
+     </h3>
+     <p>
+      Typography is crucial for readability and visual appeal. CSS gives you complete control over how text appears on your website.
+     </p>
+     <h4>
+      Font Family
+     </h4>
+     <p>
+      Changes the typeface of your text:
+     </p>
+     <div class="code-box">
+      <pre>body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+}</pre>
+     </div>
+     <p>
+      Always provide fallback fonts in case the first choice isn't available on the user's device.
+     </p>
+     <h4>
+      Font Size
+     </h4>
+     <p>
+      Controls how big or small your text appears:
+     </p>
+     <div class="code-box">
+      <pre>p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+small {
+    font-size: 12px;
+}</pre>
+     </div>
+     <h4>
+      Font Weight
+     </h4>
+     <p>
+      Makes text bold or light:
+     </p>
+     <div class="code-box">
+      <pre>.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.normal {
+    font-weight: normal;
+}</pre>
+     </div>
+     <h4>
+      Text Alignment
+     </h4>
+     <p>
+      Aligns text left, right, center, or justified:
+     </p>
+     <div class="code-box">
+      <pre>.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}</pre>
+     </div>
+     <h4>
+      Text Decoration
+     </h4>
+     <p>
+      Adds underlines, overlines, or removes default decorations:
+     </p>
+     <div class="code-box">
+      <pre>a {
+    text-decoration: none;  /* Removes underline from links */
+}
+
+.underline {
+    text-decoration: underline;
+}</pre>
+     </div>
+     <div class="note-box">
+      <strong>
+       Readability Tip:
+      </strong>
+      Use a font-size of at least 16px for body text to ensure easy reading on all devices. Line spacing (line-height) of 1.5 to 1.8 also improves readability.
+     </div>
+     <div class="back-to-top">
+      <a href="#top">
+       ↑ Back to Top
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Lesson 5 -->
+  <section class="section" id="lesson5">
+   <div class="container">
+    <div class="lesson-box">
+     <h3>
+      5. The Box Model
+     </h3>
+     <p>
+      Every HTML element is essentially a rectangular box. Understanding the CSS box model is crucial for controlling layout and spacing on your web pages.
+     </p>
+     <h4>
+      Understanding the Box Model
+     </h4>
+     <p>
+      The box model consists of four parts, from inside to outside:
+     </p>
+     <ul>
+      <li>
+       <strong>
+        Content
+       </strong>
+       - The actual content (text, images, etc.)
+      </li>
+      <li>
+       <strong>
+        Padding
+       </strong>
+       - Space between content and border (transparent)
+      </li>
+      <li>
+       <strong>
+        Border
+       </strong>
+       - A line around the padding and content
+      </li>
+      <li>
+       <strong>
+        Margin
+       </strong>
+       - Space outside the border (transparent)
+      </li>
+     </ul>
+     <div class="code-box">
+      <pre>.box {
+    width: 300px;           /* Width of content area */
+    padding: 20px;          /* Space inside the box */
+    border: 2px solid black; /* Border around the box */
+    margin: 10px;           /* Space outside the box */
+}</pre>
+     </div>
+     <h4>
+      Width and Height
+     </h4>
+     <p>
+      Control the size of the content area:
+     </p>
+     <div class="code-box">
+      <pre>.container {
+    width: 800px;
+    height: 400px;
+}</pre>
+     </div>
+     <div class="note-box">
+      <strong>
+       Important:
+      </strong>
+      By default, when you set width and height, you're only setting the size of the content area. Padding and borders add to the total size. Use box-sizing: border-box; to include padding and border in the width/height calculation.
+     </div>
+     <div class="back-to-top">
+      <a href="#top">
+       ↑ Back to Top
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Lesson 6 -->
+  <section class="section" id="lesson6" style="background-color: white;">
+   <div class="container">
+    <div class="lesson-box">
+     <h3>
+      6. Borders and Spacing
+     </h3>
+     <p>
+      Borders and spacing properties help you create visual separation and organize your content effectively.
+     </p>
+     <h4>
+      Borders
+     </h4>
+     <p>
+      Add borders around elements:
+     </p>
+     <div class="code-box">
+      <pre>.box {
+    border: 2px solid black;
+}
+
+.thick-border {
+    border: 5px solid blue;
+}
+
+.dashed {
+    border: 1px dashed red;
+}</pre>
+     </div>
+     <p>
+      You can also set borders for individual sides:
+     </p>
+     <div class="code-box">
+      <pre>.custom {
+    border-top: 3px solid blue;
+    border-bottom: 1px solid gray;
+    border-left: none;
+    border-right: none;
+}</pre>
+     </div>
+     <h4>
+      Padding
+     </h4>
+     <p>
+      Adds space inside an element, between content and border:
+     </p>
+     <div class="code-box">
+      <pre>.padded {
+    padding: 20px;  /* All sides */
+}
+
+.custom-padding {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+/* Shorthand */
+.shorthand {
+    padding: 10px 20px;  /* top/bottom, left/right */
+}</pre>
+     </div>
+     <h4>
+      Margin
+     </h4>
+     <p>
+      Adds space outside an element, creating distance from other elements:
+     </p>
+     <div class="code-box">
+      <pre>.spaced {
+    margin: 20px;  /* All sides */
+}
+
+.centered {
+    margin: 0 auto;  /* Centers block elements */
+}
+
+.custom-margin {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}</pre>
+     </div>
+     <div class="note-box">
+      <strong>
+       Remember:
+      </strong>
+      Padding adds space inside (affects background), margin adds space outside (always transparent). Use padding when you want the background color to extend, use margin to create space between elements.
+     </div>
+     <div class="back-to-top">
+      <a href="#top">
+       ↑ Back to Top
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Lesson 7 -->
+  <section class="section" id="lesson7">
+   <div class="container">
+    <div class="lesson-box">
+     <h3>
+      7. Working with Layouts
+     </h3>
+     <p>
+      Creating layouts is about arranging elements on your page. CSS provides several properties to control how elements are positioned and how they interact with each other.
+     </p>
+     <h4>
+      Display Property
+     </h4>
+     <p>
+      Controls how an element is displayed:
+     </p>
+     <div class="code-box">
+      <pre>.block {
+    display: block;  /* Takes full width, starts on new line */
+}
+
+.inline {
+    display: inline;  /* Only takes necessary width */
+}
+
+.inline-block {
+    display: inline-block;  /* Combines both behaviors */
+}</pre>
+     </div>
+     <h4>
+      Float Property
+     </h4>
+     <p>
+      Makes elements float to the left or right:
+     </p>
+     <div class="code-box">
+      <pre>.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}</pre>
+     </div>
+     <h4>
+      Text Alignment
+     </h4>
+     <p>
+      Aligns content within an element:
+     </p>
+     <div class="code-box">
+      <pre>.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}</pre>
+     </div>
+     <h4>
+      Creating a Simple Two-Column Layout
+     </h4>
+     <div class="code-box">
+      <pre>.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.column {
+    width: 45%;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}</pre>
+     </div>
+     <div class="note-box">
+      <strong>
+       Layout Tip:
+      </strong>
+      When using floats, you might need to clear them to prevent layout issues. Add a container with clear: both; or use overflow: hidden; on the parent element.
+     </div>
+     <div class="back-to-top">
+      <a href="#top">
+       ↑ Back to Top
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Practice Section -->
+  <section class="section" id="practice" style="background-color: white;">
+   <div class="container">
+    <h2>
+     8. Practice Your Skills
+    </h2>
+    <p>
+     Now it's time to put everything you've learned into practice! The best way to master CSS is by styling real web pages.
+    </p>
+    <h3>
+     Challenge: Style Your HTML Page
+    </h3>
+    <p>
+     Take an HTML page you created earlier and apply CSS styling. Try to include:
+    </p>
+    <ul>
+     <li>
+      A consistent color scheme (choose 2-3 main colors)
+     </li>
+     <li>
+      Different font sizes for headings and paragraphs
+     </li>
+     <li>
+      Background colors for different sections
+     </li>
+     <li>
+      Proper padding and margins for spacing
+     </li>
+     <li>
+      Borders around certain elements (like boxes or images)
+     </li>
+     <li>
+      Centered text for headings
+     </li>
+     <li>
+      Styled links (remove underline, change colors on hover)
+     </li>
+     <li>
+      A simple two-column layout using float
+     </li>
+    </ul>
+    <h3>
+     Example Complete CSS Style
+    </h3>
+    <p>
+     Here's a simple, complete example to get you started:
+    </p>
+    <div class="code-box">
+     <pre>body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+}
+
+p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}</pre>
+    </div>
+    <h3>
+     Tips for Success
+    </h3>
+    <ul>
+     <li>
+      Start with basic colors and fonts, then add more complex styling
+     </li>
+     <li>
+      Test your CSS in a browser frequently to see the changes
+     </li>
+     <li>
+      Use browser developer tools (F12) to experiment with styles
+     </li>
+     <li>
+      Keep your CSS organized with comments
+     </li>
+     <li>
+      Don't be afraid to try different values and see what happens
+     </li>
+     <li>
+      Look at websites you like and try to recreate their styling
+     </li>
+    </ul>
+    <div class="note-box">
+     <strong>
+      Next Steps:
+     </strong>
+     Once you're comfortable with CSS basics, you can explore advanced topics like responsive design (making websites work on mobile devices), CSS animations, and modern layout techniques like Flexbox and Grid. Keep practicing and experimenting!
+    </div>
+    <div class="back-to-top">
+     <a href="#top">
+      ↑ Back to Top
+     </a>
+    </div>
+   </div>
+  </section>
+  <!-- Back to Tutorials -->
+  <section class="section" id="bottom">
+   <div class="container" style="text-align: center;">
+    <a href="tutorials.html">
+     <button class="button">
+      Back to All Tutorials
+     </button>
+    </a>
+   </div>
+  </section>
+  <!-- Simple Footer -->
+  <footer class="footer" id="contact">
+   <div class="container">
+    <p>
+     Contact us: jainilpatelwork260508@gmail.com
+    </p>
+    <p>
+     © 2025 CodeLearnBasics. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

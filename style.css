@@ -1,0 +1,1315 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /*headings */
+        h1 {
+            font-size: 32px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 16px 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 12px 0;
+        }
+
+        /* paragraph styling */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /*link styling */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-link {
+            margin: 0 15px;
+            font-size: 16px;
+            display: inline;
+            text-align: right;
+        }
+
+        /* Header Navigation */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            width: 90%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .site-title {
+            font-size: 28px;
+            margin: 0 0 15px 0;
+            margin-right: 52%;
+            display: inline;
+        }
+
+        .nav-menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-menu a {
+            color: white;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        .nav-menu a:hover {
+            color: lightblue;
+        }
+
+        /* Button Styling */
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: darkblue;
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            background-color: lightblue;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .welcome-content {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* sections */
+        .section {
+            padding: 30px 0;
+        }
+
+        /* tutorial boxes */
+        .tutorial-box {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .tutorial-box:hover {
+            border-color: blue;
+        }
+
+        /* difficulty badges */
+        .difficulty {
+            background-color: lightgreen;
+            color: darkgreen;
+            padding: 5px 10px;
+            font-size: 12px;
+            border: 1px solid green;
+        }
+
+        .intermediate {
+            background-color: lightyellow;
+            color: orange;
+            border-color: orange;
+        }
+
+        /* code example box */
+        .code-box {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .code-box pre {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border: 2px solid #ccc;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .form-group textarea {
+            height: 100px;
+        }
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /*headings */
+        h1 {
+            font-size: 32px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 16px 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 12px 0;
+        }
+
+        /* paragraph styling */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /*link styling */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-link {
+            margin: 0 15px;
+            font-size: 16px;
+            display: inline;
+            text-align: right;
+        }
+
+        /* Header Navigation */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            width: 90%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .site-title {
+            font-size: 28px;
+            margin: 0 0 15px 0;
+            margin-right: 52%;
+            display: inline;
+        }
+
+        .nav-menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-menu a {
+            color: white;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        .nav-menu a:hover {
+            color: lightblue;
+        }
+
+        /* Button Styling */
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: darkblue;
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            background-color: lightblue;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .welcome-content {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* sections */
+        .section {
+            padding: 30px 0;
+        }
+
+        /* tutorial boxes */
+        .tutorial-box {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .tutorial-box:hover {
+            border-color: blue;
+        }
+
+        /* difficulty badges */
+        .difficulty {
+            background-color: lightgreen;
+            color: darkgreen;
+            padding: 5px 10px;
+            font-size: 12px;
+            border: 1px solid green;
+        }
+
+        .intermediate {
+            background-color: lightyellow;
+            color: orange;
+            border-color: orange;
+        }
+
+        /* code example box */
+        .code-box {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .code-box pre {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border: 2px solid #ccc;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .form-group textarea {
+            height: 100px;
+        }
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /*headings */
+        h1 {
+            font-size: 32px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 16px 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 12px 0;
+        }
+
+        /* paragraph styling */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /*link styling */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .nav-link {
+            margin: 0 15px;
+            font-size: 16px;
+            display: inline;
+            text-align: right;
+        }
+
+        /* Header Navigation */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            width: 90%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .site-title {
+            font-size: 28px;
+            margin: 0 0 15px 0;
+            margin-right: 52%;
+            display: inline;
+        }
+
+        .nav-menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-menu a {
+            color: white;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        .nav-menu a:hover {
+            color: lightblue;
+        }
+
+        /* Button Styling */
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: darkblue;
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            background-color: lightblue;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .welcome-content {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* sections */
+        .section {
+            padding: 30px 0;
+        }
+
+        /* tutorial boxes */
+        .tutorial-box {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+            box-shadow: #333 2px 2px 8px;
+        }
+
+        .tutorial-box:hover {
+            border-color: blue;
+            transform: scale(1.05);
+            transition: smoothly 2s;
+        }
+
+        /* difficulty badges */
+        .difficulty {
+            background-color: lightgreen;
+            color: darkgreen;
+            padding: 5px 10px;
+            font-size: 12px;
+            border: 1px solid green;
+        }
+
+        .intermediate {
+            background-color: lightyellow;
+            color: orange;
+            border-color: orange;
+        }
+
+        /* code example box */
+        .code-box {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .code-box pre {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border: 2px solid #ccc;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .form-group textarea {
+            height: 100px;
+        }
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /*headings */
+        h1 {
+            font-size: 32px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 16px 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 12px 0;
+        }
+
+        /* paragraph styling */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /*link styling */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-link {
+            margin: 0 15px;
+            font-size: 16px;
+            display: inline;
+            text-align: right;
+        }
+
+        /* Header Navigation */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            width: 90%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .site-title {
+            font-size: 28px;
+            margin: 0 0 15px 0;
+            margin-right: 52%;
+            display: inline;
+        }
+
+        .nav-menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-menu a {
+            color: white;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        .nav-menu a:hover {
+            color: lightblue;
+        }
+
+        /* Button Styling */
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: darkblue;
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            background-color: lightblue;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .welcome-content {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* sections */
+        .section {
+            padding: 30px 0;
+        }
+
+        /* tutorial boxes */
+        .tutorial-box {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .tutorial-box:hover {
+            border-color: blue;
+        }
+
+        /* difficulty badges */
+        .difficulty {
+            background-color: lightgreen;
+            color: darkgreen;
+            padding: 5px 10px;
+            font-size: 12px;
+            border: 1px solid green;
+        }
+
+        .intermediate {
+            background-color: lightyellow;
+            color: orange;
+            border-color: orange;
+        }
+
+        /* code example box */
+        .code-box {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .code-box pre {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border: 2px solid #ccc;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .form-group textarea {
+            height: 100px;
+        }
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /*headings */
+        h1 {
+            font-size: 32px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 16px 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 12px 0;
+        }
+
+        h4 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* paragraph styling */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /*link styling */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-link {
+            margin: 0 15px;
+            font-size: 16px;
+            display: inline;
+            text-align: right;
+        }
+
+        /* Header Navigation */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            width: 90%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .site-title {
+            font-size: 28px;
+            margin: 0 0 15px 0;
+            margin-right: 52%;
+            display: inline;
+        }
+
+        .nav-menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-menu a {
+            color: white;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        .nav-menu a:hover {
+            color: lightblue;
+        }
+
+        /* Button Styling */
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: darkblue;
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            background-color: lightblue;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .welcome-content {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* sections */
+        .section {
+            padding: 30px 0;
+        }
+
+        /* Table of Contents */
+        .toc-box {
+            background-color: white;
+            border: 2px solid blue;
+            padding: 30px;
+            margin: 20px 0;
+        }
+
+        .toc-box h3 {
+            color: blue;
+            margin-top: 0;
+        }
+
+        .toc-box ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .toc-box li {
+            margin: 12px 0;
+            font-size: 16px;
+        }
+
+        .toc-box a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .toc-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* lesson boxes */
+        .lesson-box {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .lesson-box h3 {
+            color: blue;
+            margin-top: 0;
+            padding-top: 20px;
+            border-top: 3px solid blue;
+        }
+
+        /* code example box */
+        .code-box {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .code-box pre {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        /* output box */
+        .output-box {
+            background-color: white;
+            border: 2px solid green;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .output-box h4 {
+            color: green;
+            margin-top: 0;
+        }
+
+        /* note box */
+        .note-box {
+            background-color: lightyellow;
+            border-left: 4px solid orange;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            text-align: right;
+            margin: 20px 0;
+        }
+
+        .back-to-top a {
+            background-color: blue;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /*headings */
+        h1 {
+            font-size: 32px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 16px 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 12px 0;
+        }
+
+        h4 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* paragraph styling */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /*link styling */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-link {
+            margin: 0 15px;
+            font-size: 16px;
+            display: inline;
+            text-align: right;
+        }
+
+        /* Header Navigation */
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header-content {
+            width: 90%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .site-title {
+            font-size: 28px;
+            margin: 0 0 15px 0;
+            display: inline;
+        }
+
+        .nav-menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-menu a {
+            color: white;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        .nav-menu a:hover {
+            color: lightblue;
+        }
+
+        /* Button Styling */
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: darkblue;
+        }
+
+        /* Welcome Section */
+        .welcome-section {
+            background-color: lightblue;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .welcome-content {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        /* container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* sections */
+        .section {
+            padding: 30px 0;
+        }
+
+        /* Table of Contents */
+        .toc-box {
+            background-color: white;
+            border: 2px solid blue;
+            padding: 30px;
+            margin: 20px 0;
+        }
+
+        .toc-box h3 {
+            color: blue;
+            margin-top: 0;
+        }
+
+        .toc-box ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .toc-box li {
+            margin: 12px 0;
+            font-size: 16px;
+        }
+
+        .toc-box a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .toc-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* lesson boxes */
+        .lesson-box {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .lesson-box h3 {
+            color: blue;
+            margin-top: 0;
+            padding-top: 20px;
+            border-top: 3px solid blue;
+        }
+
+        /* code example box */
+        .code-box {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .code-box pre {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        /* output box */
+        .output-box {
+            background-color: white;
+            border: 2px solid green;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .output-box h4 {
+            color: green;
+            margin-top: 0;
+        }
+
+        /* note box */
+        .note-box {
+            background-color: lightyellow;
+            border-left: 4px solid orange;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            text-align: right;
+            margin: 20px 0;
+        }
+
+        .back-to-top a {
+            background-color: blue;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
